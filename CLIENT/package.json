@@ -1,0 +1,24 @@
+{
+  "name": "yolo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "frontend:install": "cd vuejs && npm install",
+    "frontend:build": "cd vuejs && npm run build",
+    "frontend:serve": "cd vuejs && npm run serve",
+    "start": "node main"
+  },
+  "author": "Marco Angheben",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "compression": "^1.7.4",
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "morgan": "^1.10.0"
+  }
+}
