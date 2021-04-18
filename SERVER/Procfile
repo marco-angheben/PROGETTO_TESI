@@ -1,0 +1,1 @@
+web: gunicorn app:app --access-logfile '-' --log-level=debug --timeout $TIMEOUT_SECONDS
